@@ -30,7 +30,7 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
         with:
-          terraform_version: "1.9.0"   # or whatever version the book uses
+          terraform_version: "1.9.0"
 
       - name: Generate random suffix
         id: suffix
